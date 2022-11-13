@@ -1,0 +1,24 @@
+.Header{
+    height : 40vh;
+    background-color: var(--primary-blue);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 10vw;
+    height: 10vh;
+}
+.nav > section:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+}
+.nav > section:nth-child(2) > span:nth-child(2){
+    color: var(--primary-blue);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+    font-family: GalanogrotesqueMedium;
+}

@@ -1,0 +1,28 @@
+.slogan{
+    background-color: #F2F2F2;
+    padding : 0.5rem 1rem;
+    width: 40%;
+
+}
+.toCopy:hover::before{
+    content: "Click to copy";
+    width: auto;
+    height: auto;
+    background: #4D4D4D;
+    border-radius: 4px;
+    color : white;
+    padding : 2px 5px;
+    position: absolute;
+    margin :-40px;
+}
+.copied:hover::before{
+    content: "Copied";
+    width: auto;
+    height: auto;
+    background: #4D4D4D;
+    border-radius: 4px;
+    color : white;
+    padding : 2px 5px;
+    position: absolute;
+    margin :-40px;
+}

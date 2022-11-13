@@ -1,0 +1,19 @@
+.container{
+    height: 40vh;
+    background: rgba(20, 110, 180, 0.05);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    color : black;
+    padding : 0 10vw;
+
+}
+.feature{
+    width : 25vw;
+    text-align: center;
+
+}
+.feature > h2 {
+    font-family: GalanogrotesqueMedium;
+}
